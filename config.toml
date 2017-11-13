@@ -1,0 +1,69 @@
+baseurl = "http://yoshiharuyamashita.com/"
+languageCode = "en-us"
+title = "Yoshiharu Yamashita"
+theme = "blackburn"
+author = "Yoshiharu Yamashita"
+copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 5
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "Software Engineer / Freelance Translator / Wannabe Freestyle Footballer"
+  brand = "Yoshiharu<br>Yamashita"
+  googleAnalytics = "UA-72514969-1"
+  disqus = "yoshiharuyamashita"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 1
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 3
+    identifier = "topic"
+    url = "/topics/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 4
+    identifier = "tag"
+    url = "/tags/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone-square fa-fw'></i>"
+    weight = 5
+    identifier = "contact"
+    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter = "yoshiforshort"
+  instagram = "yoshiforshort"
+  github = "yoshiharuyamashita"
+  discogs = "yoshiforshort"
