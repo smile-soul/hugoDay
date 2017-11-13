@@ -1,9 +1,9 @@
-baseurl = "http://yoshiharuyamashita.com/"
+baseurl = "http://www.hugo.smilesoul.com/"
 languageCode = "en-us"
-title = "Yoshiharu Yamashita"
+title = "smilesoul"
 theme = "blackburn"
-author = "Yoshiharu Yamashita"
-copyright = "&copy; 2016. All rights reserved."
+author = "smilesoul"
+copyright = "2017-11-13"
 canonifyurls = true
 paginate = 5
 
@@ -13,7 +13,7 @@ paginate = 5
 
 [params]
   # Shown in the home page
-  subtitle = "Software Engineer / Freelance Translator / Wannabe Freestyle Footballer"
+  subtitle = "Software Engineer / English Translator"
   brand = "Yoshiharu<br>Yamashita"
   googleAnalytics = "UA-72514969-1"
   disqus = "yoshiharuyamashita"
@@ -63,7 +63,5 @@ paginate = 5
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter = "yoshiforshort"
-  instagram = "yoshiforshort"
-  github = "yoshiharuyamashita"
-  discogs = "yoshiforshort"
+  github = "smile-soul"
+  douban = "smilesoul"

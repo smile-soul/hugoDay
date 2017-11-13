@@ -191,5 +191,11 @@
     </li>
     {{ end }}
 
+    {{ with .Site.Social.douban }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://www.douban.com/people/{{ . }}" target="_blank"><i class="fa fa-server fa-fw"></i>Dou ban</a>
+    </li>
+    {{ end }}
+
   </ul>
 </div>
