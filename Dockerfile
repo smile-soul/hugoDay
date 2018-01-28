@@ -1,12 +1,7 @@
-FROM publysher/hugo
+FROM nginx
 
 MAINTAINER smilesoul
 
-RUN echo "Asia/shanghai" > /etc/timezone
-
-# ADD blog /opt
-# WORKDIR /opt/blog
-
-# CMD ["hugo", "server"]
-
-EXPOSE 1313
+COPY public /usr/share/nginx/html
+CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 80
