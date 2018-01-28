@@ -45,15 +45,15 @@ module.exports = class extends Generator {
         type: 'list',
         name: 'tags',
         message: 'Please choose tags',
-        choices: ['Daliy', 'Experience'],
-        default: ['Daliy']
+        choices: ['Daily', 'Experience'],
+        default: ['Daily']
       },
       {
         type: 'list',
         name: 'categories',
         message: 'Please choose categories',
-        choices: ['Daliy', 'Experience'],
-        default: ['Daliy']
+        choices: ['Progress'],
+        default: ['Progress']
       }
     ]).then(answer => {
       this.title = answer.title;
